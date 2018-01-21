@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <v-app>
+      <toolbar/>
+      <v-container fluid>
+        <lista-produtos/>
+      </v-container>
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import ListaProdutos from './components/ListaProdutos'
+import Toolbar from './components/objects/Toolbar'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Toolbar,
+    ListaProdutos
   }
 }
 </script>
