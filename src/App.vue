@@ -7,12 +7,23 @@
     >
       <v-list dense>
 
+        <v-list-tile avatar>
+          <v-list-tile-avatar>
+            <img src="./assets/gabriel.jpg" />
+          </v-list-tile-avatar>
+          <v-list-tile-content>
+            <v-list-tile-title>Gabriel Miranda</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+
+        <v-divider/>
+
         <v-list-tile>
           <v-list-tile-action>
             <v-icon>home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>Home</v-list-tile-title>
+            <v-list-tile-title> <a href='https://github.com/gabrielmirandat'>Github</a> </v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
 
@@ -21,7 +32,7 @@
             <v-icon>contact_mail</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>Contact</v-list-tile-title>
+            <v-list-tile-title> <a href='https://www.linkedin.com/in/gabrielmirandat/'>Linkedin</a> </v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
