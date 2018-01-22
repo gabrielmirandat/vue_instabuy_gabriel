@@ -1,21 +1,25 @@
 # vue_instabuy_gabriel
 
-> Projeto para seleção na Instabuy
+Projeto para seleção na Instabuy
 
-## Build Setup
+## Para executar
+Abrir arquivo dist/index.html no browser
+
+## Para construção
 
 ``` bash
-# install dependencies
+# instalar nodejs e vue-cli
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install -g vue-cli
+
+# instalar dependências
 npm install
 
-# serve with hot reload at localhost:8080
+# servir em localhost:8080
 npm run dev
 
-# build for production with minification
+# build em produção
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
